@@ -385,6 +385,22 @@
     [
       "2edf5611-b3ab-4348-be72-b6695f704c2b",
       "Raíz"
+    ],
+    [
+      "daf77d90-17cb-42e2-8a0f-ea92701a152b",
+      "PowerSupply&Connector"
+    ],
+    [
+      "b8ad30e7-5bba-44b9-8b8b-72b91e879749",
+      "Magnetics"
+    ],
+    [
+      "f524e01b-e22e-4411-a531-d5e8d9aad04c",
+      "MCU"
+    ],
+    [
+      "54dca1be-7520-4f22-b7ee-f909b0512d1b",
+      "MotorDriver"
     ]
   ],
   "text_variables": {}
