@@ -5,6 +5,66 @@
 	(uuid "2edf5611-b3ab-4348-be72-b6695f704c2b")
 	(paper "A4")
 	(lib_symbols)
+	(wire
+		(pts
+			(xy 104.14 107.95) (xy 128.27 107.95)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "07b89d8a-d46b-4f41-8c27-c13c42200e2c")
+	)
+	(wire
+		(pts
+			(xy 104.14 121.92) (xy 128.27 121.92)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "24ba8997-57a2-424a-ba13-6868c68a0931")
+	)
+	(wire
+		(pts
+			(xy 104.14 110.49) (xy 128.27 110.49)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5c54fa9b-c21d-4ed7-8b20-e8367bbb9ad7")
+	)
+	(wire
+		(pts
+			(xy 104.14 119.38) (xy 128.27 119.38)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6aaf5d91-cd29-4d10-9aca-06c361b8b8c3")
+	)
+	(wire
+		(pts
+			(xy 104.14 127) (xy 128.27 127)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "94dbbdd4-5c6c-4335-a123-c7de6b1d02ce")
+	)
+	(wire
+		(pts
+			(xy 104.14 124.46) (xy 128.27 124.46)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f6d48f7b-fcdf-48cf-8225-030606083d74")
+	)
 	(sheet
 		(at 128.27 104.14)
 		(size 30.48 31.75)
@@ -46,7 +106,7 @@
 			(uuid "8eda7e32-ef02-44c0-b18e-e77873e6c1c8")
 		)
 		(pin "DRV-BOUT1" output
-			(at 128.27 120.65 180)
+			(at 128.27 124.46 180)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -56,7 +116,7 @@
 			(uuid "8590380b-c473-4257-a9fa-2253ff039a7f")
 		)
 		(pin "DRV-AOUT1" output
-			(at 128.27 123.19 180)
+			(at 128.27 119.38 180)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -66,7 +126,7 @@
 			(uuid "a253d73e-c7e6-4dcc-88db-c215c5aee16c")
 		)
 		(pin "DRV-BOUT2" output
-			(at 128.27 125.73 180)
+			(at 128.27 127 180)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -76,7 +136,7 @@
 			(uuid "9fce473d-4e84-47d7-bcda-2665b69fdbfb")
 		)
 		(pin "DRV-AOUT2" output
-			(at 128.27 128.27 180)
+			(at 128.27 121.92 180)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -269,6 +329,76 @@
 				)
 				(justify left top)
 			)
+		)
+		(pin "+3.3V" output
+			(at 104.14 71.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "939bb0ce-43ba-4719-89cb-923728baede2")
+		)
+		(pin "coil-A-" input
+			(at 104.14 119.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "be7af57a-dde2-450f-82dc-f3cbaab96c65")
+		)
+		(pin "coil-A+" input
+			(at 104.14 121.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "d7f33312-71ee-4160-95b3-2484e46366eb")
+		)
+		(pin "coil-B+" input
+			(at 104.14 124.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "87f139cf-dd7d-4b72-bcd8-a46f25ba69dc")
+		)
+		(pin "coil-B-" input
+			(at 104.14 127 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "10b0c4b9-7456-480c-8f79-1c3ed14abe9b")
+		)
+		(pin "GND" output
+			(at 104.14 110.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "95aa3359-d86b-4f88-b04e-2fc2b009be90")
+		)
+		(pin "VDD" output
+			(at 104.14 107.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "e29a2741-542e-4617-816a-9c7a636be15f")
 		)
 		(instances
 			(project "WN17"
