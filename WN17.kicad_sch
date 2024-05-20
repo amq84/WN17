@@ -84,7 +84,6 @@
 	(sheet
 		(at 87.63 67.31)
 		(size 16.51 68.58)
-		(fields_autoplaced yes)
 		(stroke
 			(width 0.1524)
 			(type solid)
@@ -103,7 +102,7 @@
 			)
 		)
 		(property "Sheetfile" "PowerSupply&Connector.kicad_sch"
-			(at 87.63 136.4746 0)
+			(at 70.612 136.652 0)
 			(effects
 				(font
 					(size 1.27 1.27)
