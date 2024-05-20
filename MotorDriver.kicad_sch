@@ -4,6 +4,11 @@
 	(generator_version "8.0")
 	(uuid "bf24f3b6-659b-4915-832b-5b26c2951df2")
 	(paper "A4")
+	(title_block
+		(title "drv8434")
+		(date "20/05/2024")
+		(company "soft-loop.com")
+	)
 	(lib_symbols
 		(symbol "Device:C"
 			(pin_numbers hide)
