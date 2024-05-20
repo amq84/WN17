@@ -7,7 +7,7 @@
 	(lib_symbols)
 	(sheet
 		(at 128.27 104.14)
-		(size 17.78 31.75)
+		(size 30.48 31.75)
 		(fields_autoplaced yes)
 		(stroke
 			(width 0.1524)
@@ -34,6 +34,166 @@
 				)
 				(justify left top)
 			)
+		)
+		(pin "VDD" input
+			(at 128.27 107.95 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "8eda7e32-ef02-44c0-b18e-e77873e6c1c8")
+		)
+		(pin "DRV-BOUT1" output
+			(at 128.27 120.65 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "8590380b-c473-4257-a9fa-2253ff039a7f")
+		)
+		(pin "DRV-AOUT1" output
+			(at 128.27 123.19 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "a253d73e-c7e6-4dcc-88db-c215c5aee16c")
+		)
+		(pin "DRV-BOUT2" output
+			(at 128.27 125.73 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "9fce473d-4e84-47d7-bcda-2665b69fdbfb")
+		)
+		(pin "DRV-AOUT2" output
+			(at 128.27 128.27 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "13c17e5d-4d3e-41c8-9049-6995f12d6abb")
+		)
+		(pin "GND" input
+			(at 128.27 110.49 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "a8f868c7-47ed-46e6-852b-fce3d8ebcba1")
+		)
+		(pin "DRV-M1" input
+			(at 158.75 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "c4b3b59e-616e-4b10-a281-b9d7d6a63725")
+		)
+		(pin "DRV-DIR" input
+			(at 158.75 116.84 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "9338de41-03d1-4705-865c-2e517b2e7638")
+		)
+		(pin "DRV-ENABLE" input
+			(at 158.75 111.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "febd2537-5833-4efb-8ecd-42b3647832d7")
+		)
+		(pin "DRV-STEP" input
+			(at 158.75 114.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "665aaa5b-b56a-4502-b5cd-90a4cdbed359")
+		)
+		(pin "DRV-NSLEEP" input
+			(at 158.75 127 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "c6d52f04-bf74-4ed6-b466-fe61b4a35d3e")
+		)
+		(pin "DRV-DECAY0" input
+			(at 158.75 119.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "9638832b-19f8-4550-b1cf-65bc04a4d0a6")
+		)
+		(pin "DRV-DECAY1" input
+			(at 158.75 121.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "3b206f60-7adf-4e45-8929-d7e5fd23f5b6")
+		)
+		(pin "DRV-VREF" input
+			(at 158.75 124.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "ad915910-75b3-4dca-8156-35da2cf8d70b")
+		)
+		(pin "DRV-M0" input
+			(at 158.75 109.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "d63fd6eb-a05e-4d12-a175-b772ac157f02")
+		)
+		(pin "DRV-TOFF" input
+			(at 158.75 129.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "1024a3d0-6f93-49a9-bac3-2491844b2d4b")
 		)
 		(instances
 			(project "WN17"
@@ -120,7 +280,7 @@
 	)
 	(sheet
 		(at 128.27 67.31)
-		(size 22.86 24.13)
+		(size 30.48 24.13)
 		(fields_autoplaced yes)
 		(stroke
 			(width 0.1524)
