@@ -2,4 +2,5 @@
   (version 7)
   (lib (name "libraries")(type "KiCad")(uri "${KIPRJMOD}/libraries")(options "")(descr ""))
   (lib (name "drv8411")(type "KiCad")(uri "${KIPRJMOD}/libraries/drv8411.pretty")(options "")(descr ""))
+  (lib (name "mcp6c02")(type "KiCad")(uri "${KIPRJMOD}/libraries/mcp6c02.pretty")(options "")(descr ""))
 )

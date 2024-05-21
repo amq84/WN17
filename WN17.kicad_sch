@@ -83,7 +83,7 @@
 	)
 	(wire
 		(pts
-			(xy 128.27 73.66) (xy 115.57 73.66)
+			(xy 128.27 77.47) (xy 115.57 77.47)
 		)
 		(stroke
 			(width 0)
@@ -93,7 +93,7 @@
 	)
 	(wire
 		(pts
-			(xy 115.57 73.66) (xy 115.57 110.49)
+			(xy 115.57 77.47) (xy 115.57 110.49)
 		)
 		(stroke
 			(width 0)
@@ -446,6 +446,16 @@
 			)
 			(uuid "e29a2741-542e-4617-816a-9c7a636be15f")
 		)
+		(pin "MCP6C02_VOUT" output
+			(at 104.14 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "674f6f74-2e01-4100-8fb6-da20d13f571f")
+		)
 		(instances
 			(project "WN17"
 				(path "/2edf5611-b3ab-4348-be72-b6695f704c2b"
@@ -495,7 +505,7 @@
 			(uuid "2011c7fd-40e0-4fd0-bb88-647cf4713d84")
 		)
 		(pin "GND" input
-			(at 128.27 73.66 180)
+			(at 128.27 77.47 180)
 			(effects
 				(font
 					(size 1.27 1.27)
