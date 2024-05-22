@@ -1,4 +1,4 @@
-23341430708175502
+23346579646696628
 Audio_Module
 Reverb_BTDR-1H
 Digital Reverberation Unit, http://www.belton.co.kr/inc/downfile.php?seq=17&file=pdf (footprint from http://www.uk-electronic.de/PDF/BTDR-1.pdf)
@@ -95367,3 +95367,24 @@ AS5600
 0
 8
 8
+mcp6c02
+SOT-23-6_CHY_MCH
+
+MCP6C02T-020E/CHY 
+0
+6
+6
+mcp6c02
+SOT-23-6_CHY_MCH-L
+
+MCP6C02T-020E/CHY 
+0
+6
+6
+mcp6c02
+SOT-23-6_CHY_MCH-M
+
+MCP6C02T-020E/CHY 
+0
+6
+6
